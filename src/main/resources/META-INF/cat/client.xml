@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config mode="client" encoding="true">
+    <!-- 配置Domain ID-->
+    <domain id="stardust.gateway.payment" enabled="true" max-message-size="1000"/>
+    <servers>
+        <server ip="cat.stardustcorp.com" port="2280" http-port="80"></server>
+    </servers>
+</config>
